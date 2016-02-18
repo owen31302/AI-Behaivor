@@ -14,7 +14,11 @@ public class NPC2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         
+<<<<<<< HEAD
         if (AIBehaivor2.seek(this.gameObject, Astar.mAIdata2) && countDown < Astar.length) {
+=======
+        if (AIBehaivor2.seek(this.gameObject, Astar.mAIdata2)) {
+>>>>>>> origin/master
             int index = Astar.findIndex(Astar.wayPoints[Astar.length - 1 - countDown].x, Astar.wayPoints[Astar.length - 1 - countDown].y);
             Astar.mAIdata2.tarTrams = BuildGrid.FindingGrid.GetCellCenter(index);
             countDown++;

@@ -3,7 +3,11 @@ using System.Collections;
 
 public class BuildGrid : MonoBehaviour {
 
+<<<<<<< HEAD
     public float m_fCellSize = 5.0f;
+=======
+    public float m_fCellSize = 2.0f;
+>>>>>>> origin/master
     public int m_nRows = 8;
     public int m_nColumns = 8;
 
